@@ -18,7 +18,7 @@ function exactMatch(drivers, criterion) {
   });
 }
 
-function exactMatch(drivers, criterion) {
+function exactMatchToList(drivers, criterion) {
   return drivers.filter(function(driver) {
     return driver[Object.keys(criterion)[0]] == Object.values(criterion)[0];
   }).map(function(driver) {
