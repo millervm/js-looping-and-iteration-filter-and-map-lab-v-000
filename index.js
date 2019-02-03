@@ -9,6 +9,6 @@ function driverNamesWithRevenueOver(drivers, revenue) {
     return driver.revenue > revenue;
   });
   return newDrivers.map(function(driver) {
-    driver.name;
+    return driver.name;
   });
 }
